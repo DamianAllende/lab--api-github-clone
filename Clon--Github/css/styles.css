@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.container {
+  padding: 5% 10%;
+  display: flex; }
+
+.barNav {
+  display: flex;
+  background-color: #eeeeef;
+  padding: 15px 0px 10px 0px; }
+  .barNav__item {
+    margin-right: 15px;
+    height: 35px;
+    line-height: 35px; }
+    .barNav__item .logo {
+      font-size: 35px; }
+    .barNav__item .textInput {
+      width: 200px;
+      height: 35px;
+      border: none;
+      border-radius: 3px; }
+    .barNav__item .solicitud {
+      width: 70px;
+      height: 35px; }
+    .barNav__item .navLink {
+      text-decoration: none;
+      color: #000; }
+
+.profile__photo {
+  width: 200px; }
+
+.profile__nickName {
+  color: #bfbfbf;
+  font-size: 16px;
+  margin-bottom: 20px; }
+
+.containerright {
+  padding-left: 3%; }
+
+.repo {
+  margin: 20px 0;
+  padding: 10px 0;
+  border-bottom: solid 1px #B8B8B8; }
+  .repo__title {
+    font-size: 16px;
+    margin-top: 10px; }
+  .repo__description {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px; }
+  .repo__all {
+    font-size: 12px;
+    margin-top: 10px; }
+
+.bio {
+  margin-top: 20px; }
+  .bio .bio_list {
+    list-style-type: none; }
+
+.follow__button {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px; }
+
+.follow__report {
+  text-decoration: none;
+  color: #B8B8B8;
+  font-size: 12px; }
